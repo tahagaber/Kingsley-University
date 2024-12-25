@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsley University</title>
+    <link rel="icon" href="images/intro.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body data-page="home">
+
+    <!--* On Load -->
+    <div id="splash-screen" class="splash-screen">
+        <figure class="logo flex justify-center items-center">
+            <img src="./home-imgs/1734056194207.png" alt="University Logo" class=" w-10">
+            <h1>Kingsley University</h1>
+        </figure>
+        <h2 class="university-name">Where Excellence Meets Tradition</h2>
+    </div>
+    
+<!-- SECTION - Navbar Start -->
+<nav class="">
+    <div id="university-logo">
+        <a href="./index.html">
+            <img src="./images/Background-dark.png" class="logo" alt="">
+        </a>
+    </div>
+    <ul class="navbar-links">
+        <li class="main-li active">
+            <a class="active" href="./index.html">Home</a>
+        </li>
+        <li class="main-li">
+            <a href="./pages/about.html">About</a>
+        </li>
+        <li class="main-li">
+            <a href="./pages/academics.html">Academics</a>
+        </li>
+        <li class="main-li" id="megaMenuLi">
+            <a href="#">Other Links</a>
+            <div class="mega-menu">
+                <ul>
+                    <li>
+                        <a href="./pages/students-life.html"><i class="fa-solid fa-people-line fa-fw"></i>Students Life</a>
+                    </li>
+                    <li>
+                        <a href="./pages/resources.html"><i class="fa-solid fa-folder-tree fa-fw"></i>Resources</a>
+                    </li>
+                    <li>
+                        <a href="./pages/admission.html"><i class="fa-solid fa-table-list fa-fw"></i>Admission</a>
+                    </li>
+                    <li>
+                        <a href="./pages/stuff.html"><i class="fa-solid fa-id-card fa-fw"></i>Stuff</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contact.html"><i class="fa-regular fa-paper-plane fa-fw"></i>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>
+<!-- SECTION - Navbar End -->
+
+<!-- SECTION - Start Home -->
+<section id="home">
+    <!-- SECTION - Start Landing -->
+    <div id="first-look">
+        <div class="over-layer flex flex-col justify-center items-center text-center">
+            <div class="intro-text p-4 mt-14 flex flex-col justify-center items-center text-center">
+                <h1 class="font-bold text-4xl pb-4">Welcome To <span>Kingsley</span> University</h1>
+                <p class="text-base">University is not just a place to earn a degree; it's a chance to discover yourself, embrace challenges, and unlock the doors to endless opportunities. Keep learning, growing, and believing in your potential</p>
+                <a href="./pages/academics.html" class="rounded-lg mt-10 px-6 py-2 font-bold">Explorer</a>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION - End Landing -->   
+    <!-- SECTION - Start History -->
+    <div id="historical-info" class="container my-10 py-10 mx-auto px-4">
+        <div class="sec-title flex justify-center">
+            <h1 class="text-5xl font-bold mt-12 p-4 capitalize">brief of our history</h1>
+        </div>
+        <div class="grid mt-11 lg:grid-cols-2 sm:grid-cols-1 gap-4">
+            <div class="desc flex flex-col justify-center items-center lg:ml-8 mt-3 p-4 ">
+                <div class="desc-holder flex justify-center items-center gap-3 mb-7">
+                    <h2 class="font-bold text-3xl">We Are University Since 18 Years</h2>
+                    <i id="desc-icon" class="fa-solid fa-landmark"></i>
+                </div>
+                <p class="text-lg text-justify">Established 18 years ago, the university has grown from a small institution into a renowned center for education and innovation. Initially offering limited programs, it now provides diverse courses in sciences, arts, technology, and business. Its campus features modern libraries, advanced research centers, and state-of-the-art facilities. The university’s global partnerships and exchange programs offer students valuable international exposure. Dedicated faculty have driven academic excellence and groundbreaking research, enhancing its reputation.</p>
+                <a id="to-about" href="./pages/about.html" class="rounded-3xl flex justify-center items-center gap-4 mt-5 text-base font-semibold px-4 py-2">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="imgs-holder justify-self-center p-3 flex flex-col gap-3 justify-center items-center">
+                <img src="./home-imgs/history-02.jpg" class="history-02" alt="">
+                <div class="flex gap-3 ">
+                    <img src="./home-imgs/history-01.jpg" class="history-01 grow" alt="">
+                    <img src="./home-imgs/history-03.png" class="history-03 flex-none" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION - End History -->
+    <!-- SECTION - Start States -->
+    <div id="states" class=" my-20 mx-auto px-6 py-10">
+        <div class="sec-title flex justify-center">
+            <h1 class="text-5xl font-bold p-4 capitalize">Our Stats</h1>
+        </div>
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-9 px-7 py-8">
+            <div class="state-card p-6 bg-orange-500 flex flex-col items-center justify-center">
+                <i id="state-icon" class="fa-solid fa-graduation-cap"></i>
+                <span class="font-bold text-5xl py-4"><span data-goal="50" >0</span>k+</span>
+                <h3 class="text-3xl italic font-bold">Graduate</h3>
+            </div>
+
+            <div class="state-card p-6 bg-orange-500 flex flex-col items-center justify-center">
+                <i id="state-icon" class="fa-solid fa-magnifying-glass"></i>                
+                <span class="font-bold text-5xl py-4"><span data-goal="23" >0</span>+</span>
+                <h3 class="text-3xl italic font-bold">Research</h3>
+            </div>
+
+            <div class="state-card p-6 bg-orange-500 flex flex-col items-center justify-center">
+                <i id="state-icon" class="fa-solid fa-person-chalkboard"></i>
+                <span class="font-bold text-5xl py-4"><span data-goal="99" >0</span>+</span>
+                <h3 class="text-3xl italic font-bold">Teachers</h3>
+            </div>
+
+            <div class="state-card p-6 bg-orange-500 flex flex-col items-center justify-center">
+                <i id="state-icon" class="fa-solid fa-folder-tree"></i>
+                <span class="font-bold text-5xl py-4"><span data-goal="30" >0</span>+</span>
+                <h3 class="text-3xl italic font-bold">Departments</h3>
+            </div>
+
+        </div>
+    </div>
+    <!-- SECTION - End States -->
+    <!-- SECTION - Start Slogan Quote -->
+    <div id="slogan" class="mb-20">
+        <div class="slogan-holder flex justify-center items-center px-4">
+            <h2 class="text-center">
+                <i id="left-i" class="fa-solid fa-quote-left"></i>
+                <span></span>
+                <i id="right-i" class="fa-solid fa-quote-right"></i>
+            </h2>
+        </div>
+    </div>
+    <!-- SECTION - End Slogan Quote -->
+    <!-- SECTION - Start Faculties -->
+    <div id="faculties" class="py-20 px-8">
+        <div class="sec-title flex justify-center">
+            <h1 class="text-5xl font-bold p-4 capitalize">faculties</h1>
+        </div>
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-9 px-7 py-8">
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Engineering</h4>
+                    <figure>
+                        <img src="./home-imgs/eng.png" class="py-5 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Islamic Sciences</h4>
+                    <figure>
+                        <img src="./home-imgs/islam.png" class="py-7 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Business</h4>
+                    <figure>
+                        <img src="./home-imgs/fin.png" class="py-7 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Health Sciences</h4>
+                    <figure>
+                        <img src="./home-imgs/heal.png" class="py-7 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Linguistics</h4>
+                    <figure>
+                        <img src="./home-imgs/lang.png" class="py-7 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+                <div class="faculty-card">
+                    <h4 class="flex justify-center font-bold text-3xl py-3">Art</h4>
+                    <figure>
+                        <img src="./home-imgs/art.png" class="py-7 w-2/3 mx-auto" alt="">
+                    </figure>
+                </div>
+        </div>
+    </div>
+    <!-- SECTION - End Faculties -->
+    <!-- SECTION - Start Join Us -->
+    <div id="join" class="py-20 px-8">
+        <div class="sec-title flex justify-center">
+            <h1 class="text-5xl font-bold p-4 capitalize">why join us?</h1>
+        </div>
+        <div class="container mx-auto flex justify-evenly items-center">
+            <div class="our-features p-9">
+                <h3 class="font-semibold text-5xl pb-4">join to our community</h3>
+                <ul class="pl-7 mb-7">
+                    <li class="py-2 flex gap-3  items-center"><i id="check-i" class="fa-solid fa-check"></i>Diverse programs and modern facilities prepare students for success.</li>
+                    <li class="py-2 flex gap-3  items-center"><i id="check-i" class="fa-solid fa-check"></i>International partnerships offer valuable exposure.</li>
+                    <li class="py-2 flex gap-3  items-center"><i id="check-i" class="fa-solid fa-check"></i>Top faculty, research, and community engagement shape future leaders.</li>
+                    <li class="py-2 flex gap-3  items-center"><i id="check-i" class="fa-solid fa-check"></i>Strong industry connections and career services help students excel professionally.</li>
+                </ul>
+                <a href="./pages/login.html" class="rounded-lg ml-7">Sign up now</a>
+            </div>
+            <div class="video-holder flex justify-center lg:pb-0 sm:pb-7">
+                <figure class=" p-2 rounded-xl">
+                    <div class="dots w-fit py-3 pl-4 flex justify-center gap-2 items-center">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="play-i"><i class="fa-solid fa-play"></i></span>
+                    <img id="video" src="./home-imgs/join.jpg" class="rounded-lg" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION - End Join Us -->
+    <!-- SECTION - Start Our Membership -->
+    <div id="association-membership" class="py-20 px-8">
+        <div class="container mx-auto text-center py-6">
+            <h2 class="capitalize font-semibold text-5xl">our association membership</h2>
+            <p class="mt-16 px-16 text-xl text-gray-700 ">Join our university associations to explore your passions, build skills, and connect with like-minded peers. With diverse groups in technology, arts, culture, and sports, you’ll gain opportunities to grow, network, and develop leadership qualities through events, workshops, and competitions.Whether you're looking to explore new hobbies or advance your career prospects, our associations offer the ideal platform for you to thrive and make lasting connections.</p>
+            <div class="memberships-holder flex justify-center items-center gap-11 mt-10">
+                <img src="./home-imgs/associ-1.png" class="w-56" alt="">
+                <img src="./home-imgs/associ-2.png" class="w-56" alt="">
+                <img src="./home-imgs/associ-3.png" class="w-56" alt="">
+                <img src="./home-imgs/assci-4.png" class="w-56" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- SECTION - End Our Membership -->
+</section>
+
+    <!-- SECTION - Footer Start -->
+    <footer
+        class="h-auto text-white grid grid-cols-1 lg:grid-cols-3 gap-7 p-10 pb-3 items-center justify-start flex-wrap"
+        >
+        <!-- *STUB - First Column -->
+        <div class="foot-card-1 p-4 flex flex-col items-center">
+            <img
+            src="images/Background-dark.png"
+            class="w-full self-start"
+            alt=""
+            />
+            <div class="social mt-20 flex justify-around mx-auto w-full">
+            <a>
+                <i
+                class="main-trans fab fa-facebook-f fa-fw text-white text-3xl"
+                ></i>
+            </a>
+            <a>
+                <i class="main-trans fab fa-whatsapp fa-fw text-white text-3xl"></i>
+            </a>
+            <a>
+                <i
+                class="main-trans fab fa-instagram fa-fw text-white text-3xl"
+                ></i>
+            </a>
+            <a>
+                <i class="main-trans fab fa-linkedin fa-fw text-white text-3xl"></i>
+            </a>
+            <a>
+                <i class="main-trans fas fa-envelope text-white text-3xl"></i>
+            </a>
+            </div>
+        </div>
+        <!-- *STUB - Second Column -->
+        <div class="foot-card-2 px-8 p-4 flex justify-center">
+            <ul class="flex flex-col items-start">
+            <h3 class="mb-4 text-3xl font-bold">Quick Links</h3>
+            <li class="my-1 main-trans ml-3">
+                <a href="./pages/resources.html#faq" class="flex justify-center items-center">
+                    <i class="fas fa-angles-right fa-fw mr-3"></i>
+                    <p>FAQ</p>
+                </a>
+            </li>
+            <li class="my-1 main-trans ml-3">
+                <a href="./pages/login.html" class="flex justify-center items-center">
+                    <i class="fas fa-angles-right fa-fw mr-3"></i>
+                    <p>Register</p>
+                </a>
+            </li>
+            <li class="my-1 main-trans ml-3">
+                <a href="./pages/blogs.html" class="flex justify-center items-center">
+                    <i class="fas fa-angles-right fa-fw mr-3"></i>
+                    <p>Blog</p>
+                </a>
+            </li>
+            <li class="my-1 main-trans ml-3">
+                <a href="./pages/contact.html" class="flex justify-center items-center">
+                    <i class="fas fa-angles-right fa-fw mr-3"></i>
+                    <p>Contact</p>
+                </a>
+            </li>
+            </ul>
+        </div>
+        <!-- *STUB - Third Column -->
+        <div class="foot-card-3 p-4 h-64">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.280689559978!2d-0.3606438236597259!3d51.47136191333587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760cd8e7b670cf%3A0x32d288b05eb66f24!2sKingsley%20Academy!5e0!3m2!1sen!2seg!4v1734033387643!5m2!1sen!2seg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="h-full w-full rounded-lg"
+            ></iframe>
+        </div>
+    </footer>
+        <!-- *STUB - Copy Rights-->
+    <div class="copy pb-3">
+        <hr class="mx-14" />
+        <p class="text-center mt-3">
+            Kingsley University | 2024&copy All Rights Are Reserved
+         </p>
+    </div>
+
+    <!-- SECTION - Footer End -->
+
+<script src="./javascript/main.js"></script>
+<script src="./fontawesome/all.min.js"></script>
+</body>
+</html>
